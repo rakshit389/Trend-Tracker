@@ -6,7 +6,7 @@ export const addToBookmark = (key , data) => {
     }
 }
 export const removeFromBookmark = (key) => {
-    console.log(key)
+ 
     return{
         type: 'REMOVE_FROM_BOOKMARK' ,
         payload : key 
