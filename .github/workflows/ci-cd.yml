@@ -10,4 +10,4 @@ jobs:
 
     steps:
     - name: Print something
-      run: echo "Hello, CI/CD is working!"
+      run: eco "Hello, CI/CD is working!"
