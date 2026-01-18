@@ -12,7 +12,7 @@ start_job:
 build_job:
   stage: build
   script:
-    - echo 'Running build job'
+    - echo "Running build job"
 
 test_job:
   stage: test
