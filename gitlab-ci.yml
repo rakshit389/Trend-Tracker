@@ -1,0 +1,25 @@
+stages:
+  - start
+  - build
+  - test
+  - deploy
+
+start_job:
+  stage: start
+  script:
+    - echo "Pipeline Started"
+    
+build_job:
+  stage: build
+  script:
+    - echo 'Running build job'
+
+test_job:
+  stage: test
+  script:
+    - echo "Running test job"
+
+deploy_job:
+  stage: deploy
+  script:
+    - echo "Running deploy job"
